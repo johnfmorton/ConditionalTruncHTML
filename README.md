@@ -3,8 +3,11 @@ ConditionalTruncHTML
 
 # Why? #
 
-This Expression Engine 2 add on was created because I needed to truncate some HTML to a given length of summary to be shorter if the headline above it was longer. I was trying to balance the space. I have used Oliver Heine's TruncHTML in the past for truncation, but I needed some conditional logic added in, so I modified it for that purpose. Oliver Heine's TruncHTML was Freeware and so is this. I hope you find it helpful.
+This Expression Engine 2 add on was created because I needed to visually balance a number of blocks of text, each with a headline and a body copy area. There a few text truncation add ons for EE, but I needed to be able to choose the length of the truncation, for the body copy, based on the length of another chunk of text, the headline. 
 
+To create balanced text boxes, I basically wanted a short headline to have a more text in the truncated body and a long headline to have less truncated text in the body.  
+
+I have used Oliver Heine's TruncHTML in the past for truncation needs, but I needed some conditional logic added in, so I modified it for that purpose. Oliver Heine's TruncHTML was Freeware and so is this. I hope you find it helpful.
 
 # Use: #
 Based on Oliver Heine's go to plug-in, TruncHTML, ConditionalTruncHTML allows you to truncate text based on the length of another block of text. Typically, if you have a limited amount of space for both a headline and a body copy, you will want to limit the length of the body copy snippet based on how long the title of the entry is. 
